@@ -1,7 +1,7 @@
 # fastq_to_fasta_converter.py
 
-input_file = "5FU_Amplicon_Ali.txt"  # Replace with your actual filename if different
-output_file = "5FU_Amplicon_Ali.fasta"
+input_file = "X.txt"  # Replace with your actual filename if different
+output_file = "X.fasta"
 
 with open(input_file, "r") as infile, open(output_file, "w") as outfile:
     for idx, line in enumerate(infile):
